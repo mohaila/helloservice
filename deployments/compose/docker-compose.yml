@@ -1,0 +1,11 @@
+version: "3"
+services:
+    hellosvc:
+        image: hellosvc:0.1
+        container_name: hellosvc
+        environment: 
+            - PORT=5000
+        ports: 
+            - 8000:5000
+        
+    

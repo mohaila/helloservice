@@ -1,0 +1,15 @@
+.DS_Store
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.sqlite3
+*.db
+vendor/
+build/linux/*
+!build/linux/.gitkeep
+build/native/*
+!build/native/.gitkeep
